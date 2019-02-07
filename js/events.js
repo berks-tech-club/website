@@ -1,11 +1,3 @@
-class Event {
-    constructor(name, description, picture) {
-        this.name = name;
-        this.description = description;
-        this.picture = picture;
-    }
-}
-
 //var e = JSON.parse(events);
 
 var e = [
@@ -34,7 +26,7 @@ for (var i in e) {
     $cardstackeddiv = $('<div class="card-stacked" />');
 
     $cardcontentdiv = $('<div class="card-content" />');
-    $cardcontentdiv.append('<h2 class="header">' + i.name + '</h2>');
+    $cardcontentdiv.append('<h2 class="header">' + i.title + '</h2>');
     $cardcontentdiv.append('<p>' + i.description + '</p>');
     $cardstackeddiv.append($cardcontentdiv);
 
