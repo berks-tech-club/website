@@ -21,3 +21,9 @@ display: none;
 .mobile{display: inline;}
 .desktop {display:none;}
 }
+
+#logo {
+  height: auto;
+  max-width: 22%;
+  margin: 1%;
+}

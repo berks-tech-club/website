@@ -40,7 +40,7 @@ for (var i in e) {
     $cardstackeddiv.append($cardactiondiv);
 
     $carddiv.append($cardstackeddiv);
-    $("#events").append($carddiv);
+    //$("#events").append($carddiv);
 
     console.log('Adding event ' + i.name);
 }

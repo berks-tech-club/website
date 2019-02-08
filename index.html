@@ -13,7 +13,7 @@
    <body class="pgrey">
       <nav class="pblue desktop" role="navigation">
          <div class="nav-wrapper container">
-            <img src="images/icon-pcolor.png">
+            <img id="logo" src="images/icon-pcolor.png">
             <ul class="right hide-on-med-and-down">
                <li><a href="#home">Home</a></li>
                <li><a href="#about">About</a></li>
@@ -87,9 +87,7 @@
                   </div>
                </div>
             </div>
-            <div class="parallax-container">
-               <div class="parallax"><img src="images/1.jpg"></div>
-            </div>
+            <img class="responsive-img" src="images/meeting.HEIC">
          </div>
          <div class="section">
             <!-- About -->
@@ -108,26 +106,48 @@
             <div class="row center">
                <h5 class="header col s12 light pblue-text">What's going on with the club</h5>
             </div>
-            <div class="parallax-container">
-               <div class="parallax"><img src="images/3.jpg"></div>
-            </div>
+            <div class="slider">
+                <ul class="slides">
+                  <li>
+                    <img src="images/tournament/3.jpg"> <!-- random image -->
+                    <div class="caption right-align">
+                      <h3 class="pblue-dark-text">Rocket League Tournament</h3>
+                      <h5 class="pblue-text">September 2018</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="images/tournament/2.HEIC"> <!-- random image -->
+                    <div class="caption left-align">
+                  </li>
+                  <li>
+                    <img src="images/tournament/1.jpg"> <!-- random image -->
+                  </li>
+                  <li>
+                    <img src="images/tournament/4.jpg"> <!-- random image -->
+                  </li>
+                  <li>
+                    <img src="images/tournament/5.jpg"> <!-- random image -->
+                  </li>
+                  <li>
+                    <img src="images/tournament/6.jpg"> <!-- random image -->
+                  </li>
+                </ul>
+              </div>
             <br>
-            <div class="col s12 m7" id="events">
-                <!--
+            <div class="col s12 m7">
                <div class="card medium horizontal pwhite">
                   <div class="card-image">
-                     <img src="images/vgames.jpg">
+                     <img src="images/tournament/7.jpg">
                   </div>
                   <div class="card-stacked">
                      <div class="card-content">
                         <h2 class="header">Super Smash Bros Tournament</h2>
-                        <p>We partner with different clubs on the campus once a semester for a videogame tournament to raise funds for the clubs. *Image is a placeholder relax*</p>
                      </div>
-                     <div class="card-action">
+                     <div class="card-action white">
                         <ul class="collapsible">
                            <li>
                               <div class="collapsible-header"><i class="material-icons pblue-text">gamepad</i>More Info</div>
-                              <div class="collapsible-body"><span>More info about the tournament.</span></div>
+                              <div class="collapsible-body"><span>We'll be playing Super Smash Brothers Ultimate on a couple different Nintendo Switchs. The event will be held on February 22, 2019, and the preregistration cost is $7 for students and $10 for anyone else.</span></div>
                            </li>
                         </ul>
                      </div>
@@ -135,24 +155,22 @@
                </div>
                <div class="card medium horizontal pwhite">
                   <div class="card-image">
-                     <img src="images/speaker.jpg">
+                     <img src="images/speaker/google.jpg">
                   </div>
                   <div class="card-stacked">
                      <div class="card-content">
                         <h2 class="header">Speaker from Google</h2>
-                        <p>There is an employee from Google coming to speak to us about job interviews and life at Google. *Image is a placeholder relax and idk what he's talking about. Gimme deets Ethan*</p>
                      </div>
-                     <div class="card-action">
+                     <div class="card-action white">
                         <ul class="collapsible">
                            <li>
                               <div class="collapsible-header"><i class="material-icons pblue-text">headset</i>More Info</div>
-                              <div class="collapsible-body"><span>More info about the speaker.</span></div>
+                              <div class="collapsible-body"><span>Benyah Shaparenko is a Project Manager for speech technologies (Speech as a Service) across Google non-assistant products, which includes Automatic Speech Recognition (ASR) and Text to Speech (TTS). He will be speaking to use on February 25th, 2019, from 4:30 to 5:30, about what he does at Google and a Q&A session.</span></div>
                            </li>
                         </ul>
                      </div>
                   </div>
                </div>
-            -->
             </div>
          </div>
          <div class="section">
@@ -170,7 +188,7 @@
                <div class="col s15 m6">
                   <div class="card pwhite">
                      <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/discord.jpg">
+                        <img class="activator" src="images/contact/discord.jpg">
                      </div>
                      <div class="card-content">
                         <span class="card-title activator pblue-text">Discord<i class="material-icons right">more_vert</i></span>
@@ -187,7 +205,7 @@
                <div class="col s15 m6">
                   <div class="card pwhite">
                      <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/gmail.jpg">
+                        <img class="activator" src="images/contact/gmail.jpg">
                      </div>
                      <div class="card-content">
                         <span class="card-title activator pblue-text">Email<i class="material-icons right">more_vert</i></span>
@@ -206,7 +224,7 @@
                <div class="col s15 m6">
                   <div class="card pwhite">
                      <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/github.jpg">
+                        <img class="activator" src="images/contact/github.jpg">
                      </div>
                      <div class="card-content">
                         <span class="card-title activator pblue-text">Github<i class="material-icons right">more_vert</i></span>
@@ -223,7 +241,7 @@
                <div class="col s15 m6">
                   <div class="card pwhite">
                      <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/facebook.jpg">
+                        <img class="activator" src="images/contact/facebook.jpg">
                      </div>
                      <div class="card-content">
                         <span class="card-title activator pblue-text">Facebook<i class="material-icons right">more_vert</i></span>
