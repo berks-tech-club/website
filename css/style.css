@@ -12,3 +12,18 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.mobile {
+display: none;
+}
+
+@media only screen and (max-device-width : 480px) {
+.mobile{display: inline;}
+.desktop {display:none;}
+}
+
+#logo {
+  height: auto;
+  max-width: 22%;
+  margin: 1%;
+}
