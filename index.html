@@ -11,22 +11,16 @@
       <link rel="icon" href="images/icon.png">
    </head>
    <body class="white">
-      <nav class="pblue desktop" role="navigation">
+     <!-- Desktop Nav -->
+      <nav class="pblue" role="navigation">
          <div class="nav-wrapper container">
-            <img id="logo" src="images/icon-pcolor.png">
-            <ul class="right hide-on-med-and-down">
+            <img id="logo" src="images/icon-inverted.png">
+            <ul class="desktop right hide-on-med-and-down">
                <li><a href="#home">Home</a></li>
                <li><a href="#about">About</a></li>
                <li><a href="#events">Events</a></li>
                <li><a href="#contact">Contact Us</a></li>
             </ul>
-            <ul id="nav-mobile" class="sidenav">
-               <li><a href="#home">Home</a></li>
-               <li><a href="#about">About</a></li>
-               <li><a href="#events">Events</a></li>
-               <li><a href="#contact">Contact Us</a></li>
-            </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
          </div>
       </nav>
       <div class="section no-pad-bot" id="index-banner">
@@ -41,13 +35,14 @@
             <br><br>
          </div>
       </div>
+      <!-- Mobile Nav -->
       <div class="fixed-action-btn mobile">
          <a class="btn-floating btn-large pblue">
          <i class="large material-icons">navigation</i>
          </a>
          <ul>
             <li><a class="btn-floating pblue" href="#contact"><i class="material-icons">local_phone</i></a></li>
-            <li><a class="btn-floating pblue-dark" href="#events"><i class="material-icons">event</i></a></li>
+            <li><a class="btn-floating pblue-dark" href="#events-mobile"><i class="material-icons">event</i></a></li>
             <li><a class="btn-floating pblue" href="#about"><i class="material-icons">info</i></a></li>
             <li><a class="btn-floating pblue-dark" href="#home"><i class="material-icons">home</i></a></li>
          </ul>
@@ -55,9 +50,9 @@
       <div class="parallax-container">
          <div class="parallax"><img src="images/2.jpg"></div>
       </div>
+      <!-- About -->
       <div class="container">
          <div class="section">
-            <!--   Icon Section   -->
             <a id="about">
                <h3 class="header center pblue-dark-text">About</h3>
             </a>
@@ -90,7 +85,6 @@
             <img class="responsive-img" src="images/meeting.HEIC">
          </div>
          <div class="section">
-            <!-- About -->
             <p class="flow-text">In the 2016 Fall semester, the Berks Tech Club was founded by a small group of IST students. In the time since, the club has taken an active role on campus and in the community by hosting technology workshops and partnering with other clubs to host fundraising events.</p>
             <br>
             <p class="flow-text">Our club aspires to provide an area for students to learn new technology, build team skills, and expand their technical skills by working on projects and hosting guest speakers. We would love to see more attendance at weekly meetings and our events, and plan to inspire students to pursue their passions in technology.</p>
@@ -99,6 +93,9 @@
             <br>
             <p class="flow-text">We would appreciate all who would come share their experiences in the IT and software development fields as well as past or present projects that would enhance our knowledge. Please send us an email.</p>
          </div>
+         </div>
+         <!-- Events Desktop -->
+         <div class="container desktop">
          <div class="section">
             <a id="events">
                <h3 class="header center pblue-dark-text">Events</h3>
@@ -109,27 +106,27 @@
             <div class="slider">
                 <ul class="slides">
                   <li>
-                    <img src="images/tournament/3.jpg"> <!-- random image -->
-                    <div class="caption right-align">
+                    <img src="images/tournament/3.jpg">
+                    <div class="caption center-align pgrey-opaque">
                       <h3 class="pblue-dark-text">Rocket League Tournament</h3>
                       <h5 class="pblue-text">September 2018</h5>
                     </div>
                   </li>
                   <li>
-                    <img src="images/tournament/2.HEIC"> <!-- random image -->
+                    <img src="images/tournament/2.HEIC">
                     <div class="caption left-align">
                   </li>
                   <li>
-                    <img src="images/tournament/1.jpg"> <!-- random image -->
+                    <img src="images/tournament/1.jpg">
                   </li>
                   <li>
-                    <img src="images/tournament/4.jpg"> <!-- random image -->
+                    <img src="images/tournament/4.jpg">
                   </li>
                   <li>
-                    <img src="images/tournament/5.jpg"> <!-- random image -->
+                    <img src="images/tournament/5.jpg">
                   </li>
                   <li>
-                    <img src="images/tournament/6.jpg"> <!-- random image -->
+                    <img src="images/tournament/6.jpg">
                   </li>
                 </ul>
               </div>
@@ -173,6 +170,80 @@
                </div>
             </div>
          </div>
+         </div>
+         <!-- Events Mobile -->
+         <div class="container mobile">
+          <div class="section">
+             <a id="events-mobile">
+                <h3 class="header center pblue-dark-text">Events</h3>
+             </a>
+             <div class="row center">
+                <h5 class="header col s12 light pblue-text">What's going on with the club</h5>
+             </div>
+             <div class="slider">
+                 <ul class="slides">
+                   <li>
+                     <img src="images/tournament/4.jpg">
+                     <div class="caption center-align pgrey-opaque">
+                       <h3 class="black-text">Rocket League Tournament</h3>
+                       <h5 class="pblue-text">September 2018</h5>
+                     </div>
+                   </li>
+                   <li>
+                     <img src="images/tournament/2.HEIC">
+                     <div class="caption left-align">
+                   </li>
+                   <li>
+                     <img src="images/tournament/1.jpg">
+                   </li>
+                   <li>
+                     <img src="images/tournament/3.jpg">
+                   </li>
+                   <li>
+                     <img src="images/tournament/5.jpg">
+                   </li>
+                   <li>
+                     <img src="images/tournament/6.jpg">
+                   </li>
+                 </ul>
+               </div>
+             <br>
+             <div class="col s15 m6">
+              <div class="card pwhite">
+                 <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="images/tournament/7.jpg">
+                 </div>
+                 <div class="card-content">
+                    <span class="card-title activator pblue-text">Super Smash Bros Tournament<i class="material-icons right">more_vert</i></span>
+                 </div>
+                 <div class="card-reveal pwhite">
+                    <span class="card-title pblue-text">Super Smash Bros Tournament<i class="material-icons right">close</i></span>
+                    <p>We'll be playing Super Smash Brothers Ultimate on a couple different Nintendo Switchs. The event will be held on February 22, 2019, and the preregistration cost is $7 for students and $10 for anyone else.</p>
+                    <div class="card-action">
+                       <!--<a class="pblue-dark-text" href="registrationlink" target="_blank">Register</a>-->
+                    </div>
+                 </div>
+              </div>
+            <div class="card pwhite">
+               <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="images/speaker/google.jpg">
+               </div>
+               <div class="card-content">
+                  <span class="card-title activator pblue-text">Speaker from Google<i class="material-icons right">more_vert</i></span>
+               </div>
+               <div class="card-reveal pwhite">
+                  <span class="card-title pblue-text">Speaker from Google<i class="material-icons right">close</i></span>
+                  <p>Benyah Shaparenko is a Project Manager for speech technologies (Speech as a Service) across Google non-assistant products, which includes Automatic Speech Recognition (ASR) and Text to Speech (TTS). He will be speaking to use on February 25th, 2019, from 4:30 to 5:30, about what he does at Google and a Q&A session.</p>
+                  <div class="card-action">
+                     <!--<a class="pblue-dark-text" href="registrationlink" target="_blank">Register</a>-->
+                  </div>
+               </div>
+            </div>
+         </div>
+          </div>
+          </div>
+         <!-- Contact -->
+         <div class="container">
          <div class="section">
             <a id="contact">
                <h3 class="header center pblue-dark-text">Contact Us</h3>
@@ -259,8 +330,8 @@
          </div>
       </div>
       <!--  Scripts-->
-      <script src="js/fdatabase.js"></script>
       <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/center.js"></script>
       <script src="js/materialize.js"></script>
       <script src="js/init.js"></script>
       <script type="text/javascript" src="js/events.js"></script>
