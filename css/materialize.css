@@ -2232,6 +2232,12 @@ section {
   display: block;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -4581,9 +4587,9 @@ h1 {
 }
 
 h2 {
-  font-size: 3.56rem;
+  font-size: 3rem;
   line-height: 110%;
-  margin: 2.3733333333rem 0 1.424rem 0;
+  margin: 0px 0 1rem 0;
 }
 
 h3 {
@@ -4875,7 +4881,7 @@ small {
 .card.horizontal .card-image img {
   border-radius: 2px 0 0 2px;
   max-width: 100%;
-  width: auto;
+  width: 100%;
 }
 
 .card.horizontal .card-stacked {
